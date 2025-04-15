@@ -1,0 +1,1001 @@
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: Error sending DBGC_SUSPEND_RESUME: time out after 2000ms.
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: Current CMD queue read_ptr 5 write_ptr 6
+Apr 15 03:40:00 archlinux systemd-journald[377]: /var/log/journal/8f7a5057aedf4eb2843c55066bf090c0/system.journal: Journal file has been deleted, rotating.
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: Start IWL Error Log Dump:
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: Transport status: 0x0000004A, valid: 6
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: Loaded firmware version: 77.f92b5fed.0 so-a0-jf-b0-77.ucode
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000084 | NMI_INTERRUPT_UNKNOWN       
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00A082F0 | trm_hw_status0
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | trm_hw_status1
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x004D2A06 | branchlink2
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink1
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink2
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | data1
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x01000000 | data2
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | data3
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | beacon time
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00014FE3 | tsf low
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | tsf hi
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | time gp1
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x0002018C | time gp2
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000001 | uCode revision type
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000004D | uCode version major
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0xF92B5FED | uCode version minor
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000430 | hw version
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x18480002 | board version
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x802DFF00 | hcmd
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x20020000 | isr0
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr1
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x58F00002 | isr2
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00C0000C | isr3
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr4
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last cmd Id
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | wait_event
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_control
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_duration
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_mhvalid
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_addr_match
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000009 | lmpm_pmg_sel
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | timestamp
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000024 | flow_handler
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | ADVANCED_SYSASSERT
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink1
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink2
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink1
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink2
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data1
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data2
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data3
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac major
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac minor
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | frame pointer
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | stack pointer
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last host cmd
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr status reg
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: IML/ROM dump:
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000B03 | IML/ROM error/state
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00004EA8 | IML/ROM data1
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000090 | IML/ROM WFPM_AUTH_KEY_0
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: Fseq Registers:
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x60000000 | FSEQ_ERROR_CODE
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x80320000 | FSEQ_TOP_INIT_VERSION
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_CNVIO_INIT_VERSION
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000A384 | FSEQ_OTP_VERSION
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x5BFBA8F9 | FSEQ_TOP_CONTENT_VERSION
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x4552414E | FSEQ_ALIVE_TOKEN
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | FSEQ_CNVI_ID
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | FSEQ_CNVR_ID
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | CNVI_AUX_MISC_CHIP
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | CNVR_AUX_MISC_CHIP
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000485B | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x0BADCAFE | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_PREV_CNVIO_INIT_VERSION
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_WIFI_FSEQ_VERSION
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_BT_FSEQ_VERSION
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: 0x000000FA | FSEQ_CLASS_TP_VERSION
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: UMAC CURRENT PC: 0x8047e450
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: LMAC1 CURRENT PC: 0xd0
+Apr 15 03:40:00 archlinux NetworkManager[890]: <info>  [1744675800.7835] manager: kernel firmware directory '/lib/firmware' changed
+Apr 15 03:40:00 archlinux kernel: iwlwifi 0000:00:14.3: WRT: Collecting data: ini trigger 4 fired (delay=0ms).
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Device is not enabled - cannot dump error
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: scheduling reset (mode=4 instead of product reset as ME may be present)
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: CSR values:
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: (2nd byte of CSR_INT_COALESCING is CSR_INT_PERIODIC_REG)
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_HW_IF_CONFIG_REG: 0X18480000
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:          CSR_INT_COALESCING: 0X00000000
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:                     CSR_INT: 0X00000000
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:                CSR_INT_MASK: 0X00000000
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_FH_INT_STATUS: 0X00000000
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:                 CSR_GPIO_IN: 0X00000000
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:                   CSR_RESET: 0X00000011
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:                CSR_GP_CNTRL: 0X0c040000
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:                  CSR_HW_REV: 0X00000430
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:              CSR_EEPROM_REG: 0Xd55555d5
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:               CSR_EEPROM_GP: 0Xd55555d5
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:              CSR_OTP_GP_REG: 0Xd55555d5
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:                 CSR_GIO_REG: 0X041f0042
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:            CSR_GP_UCODE_REG: 0X00000000
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_GP_DRIVER_REG: 0X00000000
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_UCODE_DRV_GP1: 0X00000000
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_UCODE_DRV_GP2: 0X00000000
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:                 CSR_LED_REG: 0X00000020
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_DRAM_INT_TBL_REG: 0X00000000
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_GIO_CHICKEN_BITS: 0Xd55555d5
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:             CSR_ANA_PLL_CFG: 0Xd55555d5
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:      CSR_MONITOR_STATUS_REG: 0X3f1d0430
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_HW_REV_WA_REG: 0X0001105f
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_DBG_HPET_MEM_REG: 0Xffff0500
+Apr 15 03:40:01 archlinux kernel: pci 0000:00:14.3: [8086:7af0] type 00 class 0x028000 PCIe Root Complex Integrated Endpoint
+Apr 15 03:40:01 archlinux kernel: pci 0000:00:14.3: BAR 0 [mem 0x00000000-0x00003fff 64bit]
+Apr 15 03:40:01 archlinux kernel: pci 0000:00:14.3: PME# supported from D0 D3hot D3cold
+Apr 15 03:40:00 archlinux NetworkManager[890]: <info>  [1744675800.8008] device (wlan0): driver supports Access Point (AP) mode
+Apr 15 03:40:00 archlinux NetworkManager[890]: <info>  [1744675800.8011] manager: (wlan0): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/93)
+Apr 15 03:40:00 archlinux NetworkManager[890]: <info>  [1744675800.8057] audit: op="statistics" interface="wlan0" ifindex=93 args="500" pid=2279 uid=1000 result="success"
+Apr 15 03:40:00 archlinux NetworkManager[890]: <info>  [1744675800.8088] audit: op="statistics" interface="wlan0" ifindex=93 args="500" pid=2279 uid=1000 result="success"
+Apr 15 03:40:01 archlinux kernel: pci 0000:00:14.3: Adding to iommu group 5
+Apr 15 03:40:01 archlinux kernel: pci 0000:00:14.3: BAR 0 [mem 0x420421c000-0x420421ffff 64bit]: assigned
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: enabling device (0000 -> 0002)
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Detected crf-id 0x201, cnv-id 0x80401 wfpm id 0x80000030
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: PCI dev 7af0/02a4, rev=0x430, rfid=0x108110
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Detected Intel(R) Wireless-AC 9462
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-89.ucode failed with error -2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-88.ucode failed with error -2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-87.ucode failed with error -2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-86.ucode failed with error -2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-85.ucode failed with error -2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-84.ucode failed with error -2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-83.ucode failed with error -2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-82.ucode failed with error -2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-81.ucode failed with error -2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-80.ucode failed with error -2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-79.ucode failed with error -2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-78.ucode failed with error -2
+Apr 15 03:40:01 archlinux NetworkManager[890]: <info>  [1744675801.0565] rfkill86: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:14.3/ieee80211/phy86/rfkill86) (driver iwlwifi)
+Apr 15 03:40:01 archlinux NetworkManager[890]: <info>  [1744675801.0577] radio killswitch /sys/devices/pci0000:00/0000:00:14.3/ieee80211/phy86/rfkill86 disappeared
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: TLV_FW_FSEQ_VERSION: FSEQ Version: 0.0.2.36
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: loaded firmware version 77.f92b5fed.0 so-a0-jf-b0-77.ucode op_mode iwlmvm
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: WFPM_UMAC_PD_NOTIFICATION: 0x1f
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: WFPM_LMAC2_PD_NOTIFICATION: 0x1f
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: WFPM_AUTH_KEY_0: 0x90
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: CNVI_SCU_SEQ_DATA_DW9: 0x0
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: base HW address: c8:cb:9e:ed:04:fe
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: timeout waiting for FW reset ACK (inta_hw=0x0)
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Start IWL Error Log Dump:
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Transport status: 0x0000000A, valid: 6
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Loaded firmware version: 77.f92b5fed.0 so-a0-jf-b0-77.ucode
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000084 | NMI_INTERRUPT_UNKNOWN       
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00A082F0 | trm_hw_status0
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | trm_hw_status1
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x004D2A06 | branchlink2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink1
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | data1
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x01000000 | data2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | data3
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | beacon time
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x000150E0 | tsf low
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | tsf hi
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | time gp1
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x0002028B | time gp2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000001 | uCode revision type
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000004D | uCode version major
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0xF92B5FED | uCode version minor
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000430 | hw version
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x18480002 | board version
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x802DFF00 | hcmd
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x20020000 | isr0
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr1
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x58F00002 | isr2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00C0000C | isr3
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr4
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last cmd Id
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | wait_event
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_control
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_duration
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_mhvalid
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_addr_match
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000009 | lmpm_pmg_sel
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | timestamp
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000024 | flow_handler
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | ADVANCED_SYSASSERT
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink1
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink1
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data1
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data2
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data3
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac major
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac minor
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | frame pointer
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | stack pointer
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last host cmd
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr status reg
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: IML/ROM dump:
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000B03 | IML/ROM error/state
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00004EA8 | IML/ROM data1
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000090 | IML/ROM WFPM_AUTH_KEY_0
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: Fseq Registers:
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x60000000 | FSEQ_ERROR_CODE
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x80320000 | FSEQ_TOP_INIT_VERSION
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_CNVIO_INIT_VERSION
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000A384 | FSEQ_OTP_VERSION
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x5BFBA8F9 | FSEQ_TOP_CONTENT_VERSION
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x4552414E | FSEQ_ALIVE_TOKEN
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | FSEQ_CNVI_ID
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | FSEQ_CNVR_ID
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | CNVI_AUX_MISC_CHIP
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | CNVR_AUX_MISC_CHIP
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000485B | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x0BADCAFE | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_PREV_CNVIO_INIT_VERSION
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_WIFI_FSEQ_VERSION
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_BT_FSEQ_VERSION
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: 0x000000FA | FSEQ_CLASS_TP_VERSION
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: UMAC CURRENT PC: 0x8047e450
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: LMAC1 CURRENT PC: 0xd0
+Apr 15 03:40:01 archlinux kernel: iwlwifi 0000:00:14.3: WRT: Collecting data: ini trigger 4 fired (delay=0ms).
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: Error sending DBGC_SUSPEND_RESUME: time out after 2000ms.
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: Current CMD queue read_ptr 5 write_ptr 6
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: Start IWL Error Log Dump:
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: Transport status: 0x0000004A, valid: 6
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: Loaded firmware version: 77.f92b5fed.0 so-a0-jf-b0-77.ucode
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000084 | NMI_INTERRUPT_UNKNOWN       
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00A082F0 | trm_hw_status0
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | trm_hw_status1
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x004D2A06 | branchlink2
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink1
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink2
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | data1
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x01000000 | data2
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | data3
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | beacon time
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x000150E0 | tsf low
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | tsf hi
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | time gp1
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x0002028B | time gp2
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000001 | uCode revision type
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000004D | uCode version major
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0xF92B5FED | uCode version minor
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000430 | hw version
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x18480002 | board version
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x802DFF00 | hcmd
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x20020000 | isr0
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr1
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x58F00002 | isr2
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00C0000C | isr3
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr4
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last cmd Id
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | wait_event
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_control
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_duration
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_mhvalid
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_addr_match
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000009 | lmpm_pmg_sel
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | timestamp
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000024 | flow_handler
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | ADVANCED_SYSASSERT
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink1
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink2
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink1
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink2
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data1
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data2
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data3
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac major
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac minor
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | frame pointer
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | stack pointer
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last host cmd
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr status reg
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: IML/ROM dump:
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000B03 | IML/ROM error/state
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00004EA8 | IML/ROM data1
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000090 | IML/ROM WFPM_AUTH_KEY_0
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: Fseq Registers:
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x60000000 | FSEQ_ERROR_CODE
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x80320000 | FSEQ_TOP_INIT_VERSION
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_CNVIO_INIT_VERSION
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000A384 | FSEQ_OTP_VERSION
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x5BFBA8F9 | FSEQ_TOP_CONTENT_VERSION
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x4552414E | FSEQ_ALIVE_TOKEN
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | FSEQ_CNVI_ID
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | FSEQ_CNVR_ID
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | CNVI_AUX_MISC_CHIP
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | CNVR_AUX_MISC_CHIP
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000485B | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x0BADCAFE | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_PREV_CNVIO_INIT_VERSION
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_WIFI_FSEQ_VERSION
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_BT_FSEQ_VERSION
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: 0x000000FA | FSEQ_CLASS_TP_VERSION
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: UMAC CURRENT PC: 0x8047e450
+Apr 15 03:40:03 archlinux kernel: iwlwifi 0000:00:14.3: LMAC1 CURRENT PC: 0xd0
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: WRT: Collecting data: ini trigger 4 fired (delay=0ms).
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Device is not enabled - cannot dump error
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: scheduling reset (mode=4 instead of product reset as ME may be present)
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: CSR values:
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: (2nd byte of CSR_INT_COALESCING is CSR_INT_PERIODIC_REG)
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_HW_IF_CONFIG_REG: 0X18480000
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:          CSR_INT_COALESCING: 0X00000000
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:                     CSR_INT: 0X00000000
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:                CSR_INT_MASK: 0X00000000
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_FH_INT_STATUS: 0X00000000
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:                 CSR_GPIO_IN: 0X00000000
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:                   CSR_RESET: 0X00000011
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:                CSR_GP_CNTRL: 0X0c040000
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:                  CSR_HW_REV: 0X00000430
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:              CSR_EEPROM_REG: 0Xd55555d5
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:               CSR_EEPROM_GP: 0Xd55555d5
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:              CSR_OTP_GP_REG: 0Xd55555d5
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:                 CSR_GIO_REG: 0X041f0042
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:            CSR_GP_UCODE_REG: 0X00000000
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_GP_DRIVER_REG: 0X00000000
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_UCODE_DRV_GP1: 0X00000000
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_UCODE_DRV_GP2: 0X00000000
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:                 CSR_LED_REG: 0X00000020
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_DRAM_INT_TBL_REG: 0X00000000
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_GIO_CHICKEN_BITS: 0Xd55555d5
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:             CSR_ANA_PLL_CFG: 0Xd55555d5
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:      CSR_MONITOR_STATUS_REG: 0X3f1d0430
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_HW_REV_WA_REG: 0X0001105f
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_DBG_HPET_MEM_REG: 0Xffff0500
+Apr 15 03:40:04 archlinux kernel: pci 0000:00:14.3: [8086:7af0] type 00 class 0x028000 PCIe Root Complex Integrated Endpoint
+Apr 15 03:40:04 archlinux kernel: pci 0000:00:14.3: BAR 0 [mem 0x00000000-0x00003fff 64bit]
+Apr 15 03:40:04 archlinux kernel: pci 0000:00:14.3: PME# supported from D0 D3hot D3cold
+Apr 15 03:40:04 archlinux kernel: pci 0000:00:14.3: Adding to iommu group 5
+Apr 15 03:40:04 archlinux NetworkManager[890]: <info>  [1744675804.1781] device (wlan0): driver supports Access Point (AP) mode
+Apr 15 03:40:04 archlinux NetworkManager[890]: <info>  [1744675804.1784] manager: (wlan0): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/94)
+Apr 15 03:40:04 archlinux NetworkManager[890]: <info>  [1744675804.1843] audit: op="statistics" interface="wlan0" ifindex=94 args="500" pid=2279 uid=1000 result="success"
+Apr 15 03:40:04 archlinux NetworkManager[890]: <info>  [1744675804.1877] audit: op="statistics" interface="wlan0" ifindex=94 args="500" pid=2279 uid=1000 result="success"
+Apr 15 03:40:04 archlinux NetworkManager[890]: <info>  [1744675804.3797] rfkill87: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:14.3/ieee80211/phy87/rfkill87) (driver (unknown))
+Apr 15 03:40:04 archlinux NetworkManager[890]: <info>  [1744675804.3809] radio killswitch /sys/devices/pci0000:00/0000:00:14.3/ieee80211/phy87/rfkill87 disappeared
+Apr 15 03:40:04 archlinux kernel: pci 0000:00:14.3: BAR 0 [mem 0x420421c000-0x420421ffff 64bit]: assigned
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: enabling device (0000 -> 0002)
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Detected crf-id 0x201, cnv-id 0x80401 wfpm id 0x80000030
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: PCI dev 7af0/02a4, rev=0x430, rfid=0x108110
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Detected Intel(R) Wireless-AC 9462
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-89.ucode failed with error -2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-88.ucode failed with error -2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-87.ucode failed with error -2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-86.ucode failed with error -2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-85.ucode failed with error -2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-84.ucode failed with error -2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-83.ucode failed with error -2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-82.ucode failed with error -2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-81.ucode failed with error -2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-80.ucode failed with error -2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-79.ucode failed with error -2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-78.ucode failed with error -2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: TLV_FW_FSEQ_VERSION: FSEQ Version: 0.0.2.36
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: loaded firmware version 77.f92b5fed.0 so-a0-jf-b0-77.ucode op_mode iwlmvm
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: WFPM_UMAC_PD_NOTIFICATION: 0x1f
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: WFPM_LMAC2_PD_NOTIFICATION: 0x1f
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: WFPM_AUTH_KEY_0: 0x90
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: CNVI_SCU_SEQ_DATA_DW9: 0x0
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: base HW address: c8:cb:9e:ed:04:fe
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: timeout waiting for FW reset ACK (inta_hw=0x0)
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Start IWL Error Log Dump:
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Transport status: 0x0000000A, valid: 6
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Loaded firmware version: 77.f92b5fed.0 so-a0-jf-b0-77.ucode
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000084 | NMI_INTERRUPT_UNKNOWN       
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00A082F0 | trm_hw_status0
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | trm_hw_status1
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x004D2A06 | branchlink2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink1
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | data1
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x01000000 | data2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | data3
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | beacon time
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00014D46 | tsf low
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | tsf hi
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | time gp1
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x0001FEF3 | time gp2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000001 | uCode revision type
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000004D | uCode version major
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0xF92B5FED | uCode version minor
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000430 | hw version
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x18480002 | board version
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x802DFF00 | hcmd
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x20020000 | isr0
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr1
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x58F00002 | isr2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00C0000C | isr3
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr4
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last cmd Id
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | wait_event
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_control
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_duration
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_mhvalid
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_addr_match
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000009 | lmpm_pmg_sel
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | timestamp
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000024 | flow_handler
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | ADVANCED_SYSASSERT
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink1
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink1
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data1
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data2
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data3
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac major
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac minor
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | frame pointer
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | stack pointer
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last host cmd
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr status reg
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: IML/ROM dump:
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000B03 | IML/ROM error/state
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00004EA8 | IML/ROM data1
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000090 | IML/ROM WFPM_AUTH_KEY_0
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: Fseq Registers:
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x60000000 | FSEQ_ERROR_CODE
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x80320000 | FSEQ_TOP_INIT_VERSION
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_CNVIO_INIT_VERSION
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000A384 | FSEQ_OTP_VERSION
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x5BFBA8F9 | FSEQ_TOP_CONTENT_VERSION
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x4552414E | FSEQ_ALIVE_TOKEN
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | FSEQ_CNVI_ID
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | FSEQ_CNVR_ID
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | CNVI_AUX_MISC_CHIP
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | CNVR_AUX_MISC_CHIP
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000485B | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x0BADCAFE | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_PREV_CNVIO_INIT_VERSION
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_WIFI_FSEQ_VERSION
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_BT_FSEQ_VERSION
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: 0x000000FA | FSEQ_CLASS_TP_VERSION
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: UMAC CURRENT PC: 0x8047e450
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: LMAC1 CURRENT PC: 0xd0
+Apr 15 03:40:04 archlinux kernel: iwlwifi 0000:00:14.3: WRT: Collecting data: ini trigger 4 fired (delay=0ms).
+Apr 15 03:40:06 archlinux kernel: iwlwifi 0000:00:14.3: Error sending DBGC_SUSPEND_RESUME: time out after 2000ms.
+Apr 15 03:40:06 archlinux kernel: iwlwifi 0000:00:14.3: Current CMD queue read_ptr 5 write_ptr 6
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Start IWL Error Log Dump:
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Transport status: 0x0000004A, valid: 6
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Loaded firmware version: 77.f92b5fed.0 so-a0-jf-b0-77.ucode
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000084 | NMI_INTERRUPT_UNKNOWN       
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00A082F0 | trm_hw_status0
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | trm_hw_status1
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x004D2A06 | branchlink2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink1
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | data1
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x01000000 | data2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | data3
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | beacon time
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00014D46 | tsf low
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | tsf hi
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | time gp1
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x0001FEF3 | time gp2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000001 | uCode revision type
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000004D | uCode version major
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0xF92B5FED | uCode version minor
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000430 | hw version
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x18480002 | board version
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x802DFF00 | hcmd
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x20020000 | isr0
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr1
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x58F00002 | isr2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00C0000C | isr3
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr4
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last cmd Id
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | wait_event
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_control
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_duration
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_mhvalid
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_addr_match
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000009 | lmpm_pmg_sel
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | timestamp
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000024 | flow_handler
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | ADVANCED_SYSASSERT
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink1
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink1
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data1
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data3
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac major
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac minor
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | frame pointer
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | stack pointer
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last host cmd
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr status reg
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: IML/ROM dump:
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000B03 | IML/ROM error/state
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00004EA8 | IML/ROM data1
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000090 | IML/ROM WFPM_AUTH_KEY_0
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Fseq Registers:
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x60000000 | FSEQ_ERROR_CODE
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x80320000 | FSEQ_TOP_INIT_VERSION
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_CNVIO_INIT_VERSION
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000A384 | FSEQ_OTP_VERSION
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x5BFBA8F9 | FSEQ_TOP_CONTENT_VERSION
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x4552414E | FSEQ_ALIVE_TOKEN
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | FSEQ_CNVI_ID
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | FSEQ_CNVR_ID
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | CNVI_AUX_MISC_CHIP
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | CNVR_AUX_MISC_CHIP
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000485B | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x0BADCAFE | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_PREV_CNVIO_INIT_VERSION
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_WIFI_FSEQ_VERSION
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_BT_FSEQ_VERSION
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: 0x000000FA | FSEQ_CLASS_TP_VERSION
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: UMAC CURRENT PC: 0x8047e450
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: LMAC1 CURRENT PC: 0xd0
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: WRT: Collecting data: ini trigger 4 fired (delay=0ms).
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Device is not enabled - cannot dump error
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: scheduling reset (mode=4 instead of product reset as ME may be present)
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: CSR values:
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: (2nd byte of CSR_INT_COALESCING is CSR_INT_PERIODIC_REG)
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_HW_IF_CONFIG_REG: 0X18480000
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:          CSR_INT_COALESCING: 0X00000000
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:                     CSR_INT: 0X00000000
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:                CSR_INT_MASK: 0X00000000
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_FH_INT_STATUS: 0X00000000
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:                 CSR_GPIO_IN: 0X00000000
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:                   CSR_RESET: 0X00000011
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:                CSR_GP_CNTRL: 0X0c040000
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:                  CSR_HW_REV: 0X00000430
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:              CSR_EEPROM_REG: 0Xd55555d5
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:               CSR_EEPROM_GP: 0Xd55555d5
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:              CSR_OTP_GP_REG: 0Xd55555d5
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:                 CSR_GIO_REG: 0X041f0042
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:            CSR_GP_UCODE_REG: 0X00000000
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_GP_DRIVER_REG: 0X00000000
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_UCODE_DRV_GP1: 0X00000000
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_UCODE_DRV_GP2: 0X00000000
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:                 CSR_LED_REG: 0X00000020
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_DRAM_INT_TBL_REG: 0X00000000
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_GIO_CHICKEN_BITS: 0Xd55555d5
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:             CSR_ANA_PLL_CFG: 0Xd55555d5
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:      CSR_MONITOR_STATUS_REG: 0X3f1d0030
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_HW_REV_WA_REG: 0X0001105f
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_DBG_HPET_MEM_REG: 0Xffff0500
+Apr 15 03:40:07 archlinux kernel: pci 0000:00:14.3: [8086:7af0] type 00 class 0x028000 PCIe Root Complex Integrated Endpoint
+Apr 15 03:40:07 archlinux kernel: pci 0000:00:14.3: BAR 0 [mem 0x00000000-0x00003fff 64bit]
+Apr 15 03:40:07 archlinux kernel: pci 0000:00:14.3: PME# supported from D0 D3hot D3cold
+Apr 15 03:40:07 archlinux kernel: pci 0000:00:14.3: Adding to iommu group 5
+Apr 15 03:40:07 archlinux kernel: pci 0000:00:14.3: BAR 0 [mem 0x420421c000-0x420421ffff 64bit]: assigned
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: enabling device (0000 -> 0002)
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Detected crf-id 0x201, cnv-id 0x80401 wfpm id 0x80000030
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: PCI dev 7af0/02a4, rev=0x430, rfid=0x108110
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Detected Intel(R) Wireless-AC 9462
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-89.ucode failed with error -2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-88.ucode failed with error -2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-87.ucode failed with error -2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-86.ucode failed with error -2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-85.ucode failed with error -2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-84.ucode failed with error -2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-83.ucode failed with error -2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-82.ucode failed with error -2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-81.ucode failed with error -2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-80.ucode failed with error -2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-79.ucode failed with error -2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-78.ucode failed with error -2
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: TLV_FW_FSEQ_VERSION: FSEQ Version: 0.0.2.36
+Apr 15 03:40:07 archlinux NetworkManager[890]: <info>  [1744675807.4408] device (wlan0): driver supports Access Point (AP) mode
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: loaded firmware version 77.f92b5fed.0 so-a0-jf-b0-77.ucode op_mode iwlmvm
+Apr 15 03:40:07 archlinux NetworkManager[890]: <info>  [1744675807.4410] manager: (wlan0): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/95)
+Apr 15 03:40:07 archlinux NetworkManager[890]: <info>  [1744675807.4453] audit: op="statistics" interface="wlan0" ifindex=95 args="500" pid=2279 uid=1000 result="success"
+Apr 15 03:40:07 archlinux NetworkManager[890]: <info>  [1744675807.4479] audit: op="statistics" interface="wlan0" ifindex=95 args="500" pid=2279 uid=1000 result="success"
+Apr 15 03:40:07 archlinux NetworkManager[890]: <info>  [1744675807.6475] rfkill88: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:14.3/ieee80211/phy88/rfkill88) (driver iwlwifi)
+Apr 15 03:40:07 archlinux NetworkManager[890]: <info>  [1744675807.6476] radio killswitch /sys/devices/pci0000:00/0000:00:14.3/ieee80211/phy88/rfkill88 disappeared
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: WFPM_UMAC_PD_NOTIFICATION: 0x1f
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: WFPM_LMAC2_PD_NOTIFICATION: 0x1f
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: WFPM_AUTH_KEY_0: 0x90
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: CNVI_SCU_SEQ_DATA_DW9: 0x0
+Apr 15 03:40:07 archlinux kernel: iwlwifi 0000:00:14.3: base HW address: c8:cb:9e:ed:04:fe
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: timeout waiting for FW reset ACK (inta_hw=0x0)
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: Start IWL Error Log Dump:
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: Transport status: 0x0000000A, valid: 6
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: Loaded firmware version: 77.f92b5fed.0 so-a0-jf-b0-77.ucode
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000084 | NMI_INTERRUPT_UNKNOWN       
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00A082F0 | trm_hw_status0
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | trm_hw_status1
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x004D2A06 | branchlink2
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink1
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink2
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | data1
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x01000000 | data2
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | data3
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | beacon time
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00014CFB | tsf low
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | tsf hi
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | time gp1
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x0001FEA7 | time gp2
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000001 | uCode revision type
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000004D | uCode version major
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0xF92B5FED | uCode version minor
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000430 | hw version
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x18480002 | board version
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x802DFF00 | hcmd
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x20020000 | isr0
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr1
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x58F00002 | isr2
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00C0000C | isr3
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr4
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last cmd Id
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | wait_event
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_control
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_duration
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_mhvalid
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_addr_match
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000009 | lmpm_pmg_sel
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | timestamp
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000024 | flow_handler
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | ADVANCED_SYSASSERT
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink1
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink2
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink1
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink2
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data1
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data2
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data3
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac major
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac minor
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | frame pointer
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | stack pointer
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last host cmd
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr status reg
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: IML/ROM dump:
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000B03 | IML/ROM error/state
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00004EA9 | IML/ROM data1
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000090 | IML/ROM WFPM_AUTH_KEY_0
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: Fseq Registers:
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x60000000 | FSEQ_ERROR_CODE
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x80320000 | FSEQ_TOP_INIT_VERSION
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_CNVIO_INIT_VERSION
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000A384 | FSEQ_OTP_VERSION
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x5BFBA8F9 | FSEQ_TOP_CONTENT_VERSION
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x4552414E | FSEQ_ALIVE_TOKEN
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | FSEQ_CNVI_ID
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | FSEQ_CNVR_ID
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | CNVI_AUX_MISC_CHIP
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | CNVR_AUX_MISC_CHIP
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000485B | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x0BADCAFE | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_PREV_CNVIO_INIT_VERSION
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_WIFI_FSEQ_VERSION
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_BT_FSEQ_VERSION
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: 0x000000FA | FSEQ_CLASS_TP_VERSION
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: UMAC CURRENT PC: 0x8047e450
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: LMAC1 CURRENT PC: 0xd0
+Apr 15 03:40:08 archlinux kernel: iwlwifi 0000:00:14.3: WRT: Collecting data: ini trigger 4 fired (delay=0ms).
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Error sending DBGC_SUSPEND_RESUME: time out after 2000ms.
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Current CMD queue read_ptr 5 write_ptr 6
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Start IWL Error Log Dump:
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Transport status: 0x0000004A, valid: 6
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Loaded firmware version: 77.f92b5fed.0 so-a0-jf-b0-77.ucode
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000084 | NMI_INTERRUPT_UNKNOWN       
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00A082F0 | trm_hw_status0
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | trm_hw_status1
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x004D2A06 | branchlink2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink1
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | data1
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x01000000 | data2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | data3
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | beacon time
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00014CFB | tsf low
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | tsf hi
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | time gp1
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x0001FEA7 | time gp2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000001 | uCode revision type
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000004D | uCode version major
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0xF92B5FED | uCode version minor
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000430 | hw version
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x18480002 | board version
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x802DFF00 | hcmd
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x20020000 | isr0
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr1
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x58F00002 | isr2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00C0000C | isr3
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr4
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last cmd Id
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | wait_event
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_control
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_duration
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_mhvalid
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_addr_match
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000009 | lmpm_pmg_sel
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | timestamp
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000024 | flow_handler
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | ADVANCED_SYSASSERT
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink1
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink1
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data1
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data3
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac major
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac minor
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | frame pointer
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | stack pointer
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last host cmd
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr status reg
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: IML/ROM dump:
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000B03 | IML/ROM error/state
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00004EA9 | IML/ROM data1
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000090 | IML/ROM WFPM_AUTH_KEY_0
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Fseq Registers:
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x60000000 | FSEQ_ERROR_CODE
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x80320000 | FSEQ_TOP_INIT_VERSION
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_CNVIO_INIT_VERSION
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000A384 | FSEQ_OTP_VERSION
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x5BFBA8F9 | FSEQ_TOP_CONTENT_VERSION
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x4552414E | FSEQ_ALIVE_TOKEN
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | FSEQ_CNVI_ID
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | FSEQ_CNVR_ID
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | CNVI_AUX_MISC_CHIP
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | CNVR_AUX_MISC_CHIP
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000485B | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x0BADCAFE | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_PREV_CNVIO_INIT_VERSION
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_WIFI_FSEQ_VERSION
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_BT_FSEQ_VERSION
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: 0x000000FA | FSEQ_CLASS_TP_VERSION
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: UMAC CURRENT PC: 0x8047e450
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: LMAC1 CURRENT PC: 0xd0
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: WRT: Collecting data: ini trigger 4 fired (delay=0ms).
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Device is not enabled - cannot dump error
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: scheduling reset (mode=4 instead of product reset as ME may be present)
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: CSR values:
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: (2nd byte of CSR_INT_COALESCING is CSR_INT_PERIODIC_REG)
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_HW_IF_CONFIG_REG: 0X18480000
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:          CSR_INT_COALESCING: 0X00000000
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:                     CSR_INT: 0X00000000
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:                CSR_INT_MASK: 0X00000000
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_FH_INT_STATUS: 0X00000000
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:                 CSR_GPIO_IN: 0X00000000
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:                   CSR_RESET: 0X00000011
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:                CSR_GP_CNTRL: 0X0c040000
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:                  CSR_HW_REV: 0X00000430
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:              CSR_EEPROM_REG: 0Xd55555d5
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:               CSR_EEPROM_GP: 0Xd55555d5
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:              CSR_OTP_GP_REG: 0Xd55555d5
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:                 CSR_GIO_REG: 0X041f0042
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:            CSR_GP_UCODE_REG: 0X00000000
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_GP_DRIVER_REG: 0X00000000
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_UCODE_DRV_GP1: 0X00000000
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_UCODE_DRV_GP2: 0X00000000
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:                 CSR_LED_REG: 0X00000020
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_DRAM_INT_TBL_REG: 0X00000000
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_GIO_CHICKEN_BITS: 0Xd55555d5
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:             CSR_ANA_PLL_CFG: 0Xd55555d5
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:      CSR_MONITOR_STATUS_REG: 0X3f1d0430
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_HW_REV_WA_REG: 0X0001105f
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_DBG_HPET_MEM_REG: 0Xffff0500
+Apr 15 03:40:10 archlinux kernel: pci 0000:00:14.3: [8086:7af0] type 00 class 0x028000 PCIe Root Complex Integrated Endpoint
+Apr 15 03:40:10 archlinux kernel: pci 0000:00:14.3: BAR 0 [mem 0x00000000-0x00003fff 64bit]
+Apr 15 03:40:10 archlinux kernel: pci 0000:00:14.3: PME# supported from D0 D3hot D3cold
+Apr 15 03:40:10 archlinux kernel: pci 0000:00:14.3: Adding to iommu group 5
+Apr 15 03:40:10 archlinux kernel: pci 0000:00:14.3: BAR 0 [mem 0x420421c000-0x420421ffff 64bit]: assigned
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: enabling device (0000 -> 0002)
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Detected crf-id 0x201, cnv-id 0x80401 wfpm id 0x80000030
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: PCI dev 7af0/02a4, rev=0x430, rfid=0x108110
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Detected Intel(R) Wireless-AC 9462
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-89.ucode failed with error -2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-88.ucode failed with error -2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-87.ucode failed with error -2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-86.ucode failed with error -2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-85.ucode failed with error -2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-84.ucode failed with error -2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-83.ucode failed with error -2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-82.ucode failed with error -2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-81.ucode failed with error -2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-80.ucode failed with error -2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-79.ucode failed with error -2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-78.ucode failed with error -2
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: TLV_FW_FSEQ_VERSION: FSEQ Version: 0.0.2.36
+Apr 15 03:40:10 archlinux kernel: iwlwifi 0000:00:14.3: loaded firmware version 77.f92b5fed.0 so-a0-jf-b0-77.ucode op_mode iwlmvm
+Apr 15 03:40:10 archlinux NetworkManager[890]: <info>  [1744675810.7150] device (wlan0): driver supports Access Point (AP) mode
+Apr 15 03:40:10 archlinux NetworkManager[890]: <info>  [1744675810.7154] manager: (wlan0): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/96)
+Apr 15 03:40:10 archlinux NetworkManager[890]: <info>  [1744675810.7247] audit: op="statistics" interface="wlan0" ifindex=96 args="500" pid=2279 uid=1000 result="success"
+Apr 15 03:40:10 archlinux NetworkManager[890]: <info>  [1744675810.7289] audit: op="statistics" interface="wlan0" ifindex=96 args="500" pid=2279 uid=1000 result="success"
+Apr 15 03:40:10 archlinux NetworkManager[890]: <info>  [1744675810.9410] rfkill89: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:14.3/ieee80211/phy89/rfkill89) (driver iwlwifi)
+Apr 15 03:40:10 archlinux NetworkManager[890]: <info>  [1744675810.9420] radio killswitch /sys/devices/pci0000:00/0000:00:14.3/ieee80211/phy89/rfkill89 disappeared
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: WFPM_UMAC_PD_NOTIFICATION: 0x1f
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: WFPM_LMAC2_PD_NOTIFICATION: 0x1f
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: WFPM_AUTH_KEY_0: 0x90
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: CNVI_SCU_SEQ_DATA_DW9: 0x0
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: base HW address: c8:cb:9e:ed:04:fe
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: timeout waiting for FW reset ACK (inta_hw=0x0)
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: Start IWL Error Log Dump:
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: Transport status: 0x0000000A, valid: 6
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: Loaded firmware version: 77.f92b5fed.0 so-a0-jf-b0-77.ucode
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000084 | NMI_INTERRUPT_UNKNOWN       
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00A082F0 | trm_hw_status0
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | trm_hw_status1
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x004D2A06 | branchlink2
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink1
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink2
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | data1
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x01000000 | data2
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | data3
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | beacon time
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x000150A0 | tsf low
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | tsf hi
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | time gp1
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x0002024C | time gp2
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000001 | uCode revision type
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000004D | uCode version major
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0xF92B5FED | uCode version minor
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000430 | hw version
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x18480002 | board version
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x802DFF00 | hcmd
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x20020000 | isr0
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr1
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x58F00002 | isr2
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00C0001C | isr3
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr4
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last cmd Id
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | wait_event
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_control
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_duration
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_mhvalid
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_addr_match
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000009 | lmpm_pmg_sel
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | timestamp
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000024 | flow_handler
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | ADVANCED_SYSASSERT
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink1
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink2
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink1
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink2
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data1
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data2
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data3
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac major
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac minor
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | frame pointer
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | stack pointer
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last host cmd
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr status reg
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: IML/ROM dump:
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000B03 | IML/ROM error/state
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00004EA8 | IML/ROM data1
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000090 | IML/ROM WFPM_AUTH_KEY_0
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: Fseq Registers:
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x60000000 | FSEQ_ERROR_CODE
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x80320000 | FSEQ_TOP_INIT_VERSION
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_CNVIO_INIT_VERSION
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000A384 | FSEQ_OTP_VERSION
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x5BFBA8F9 | FSEQ_TOP_CONTENT_VERSION
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x4552414E | FSEQ_ALIVE_TOKEN
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | FSEQ_CNVI_ID
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | FSEQ_CNVR_ID
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | CNVI_AUX_MISC_CHIP
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | CNVR_AUX_MISC_CHIP
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000485B | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x0BADCAFE | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_PREV_CNVIO_INIT_VERSION
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_WIFI_FSEQ_VERSION
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_BT_FSEQ_VERSION
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: 0x000000FA | FSEQ_CLASS_TP_VERSION
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: UMAC CURRENT PC: 0x8047e450
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: LMAC1 CURRENT PC: 0xd0
+Apr 15 03:40:11 archlinux kernel: iwlwifi 0000:00:14.3: WRT: Collecting data: ini trigger 4 fired (delay=0ms).
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: Error sending DBGC_SUSPEND_RESUME: time out after 2000ms.
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: Current CMD queue read_ptr 5 write_ptr 6
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: Start IWL Error Log Dump:
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: Transport status: 0x0000004A, valid: 6
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: Loaded firmware version: 77.f92b5fed.0 so-a0-jf-b0-77.ucode
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000084 | NMI_INTERRUPT_UNKNOWN       
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00A082F0 | trm_hw_status0
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | trm_hw_status1
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x004D2A06 | branchlink2
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink1
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x004C92BE | interruptlink2
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | data1
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x01000000 | data2
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | data3
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | beacon time
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x000150A0 | tsf low
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | tsf hi
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | time gp1
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x0002024C | time gp2
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000001 | uCode revision type
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000004D | uCode version major
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0xF92B5FED | uCode version minor
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000430 | hw version
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x18480002 | board version
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x802DFF00 | hcmd
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x20020000 | isr0
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr1
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x58F00002 | isr2
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00C0001C | isr3
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr4
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last cmd Id
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00011F5A | wait_event
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_control
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_duration
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_mhvalid
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | l2p_addr_match
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000009 | lmpm_pmg_sel
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | timestamp
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000024 | flow_handler
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | ADVANCED_SYSASSERT
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink1
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac branchlink2
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink1
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac interruptlink2
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data1
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data2
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac data3
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac major
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | umac minor
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | frame pointer
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | stack pointer
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | last host cmd
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000000 | isr status reg
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: IML/ROM dump:
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000B03 | IML/ROM error/state
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00004EA8 | IML/ROM data1
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000090 | IML/ROM WFPM_AUTH_KEY_0
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: Fseq Registers:
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x60000000 | FSEQ_ERROR_CODE
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x80320000 | FSEQ_TOP_INIT_VERSION
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_CNVIO_INIT_VERSION
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000A384 | FSEQ_OTP_VERSION
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x5BFBA8F9 | FSEQ_TOP_CONTENT_VERSION
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x4552414E | FSEQ_ALIVE_TOKEN
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | FSEQ_CNVI_ID
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | FSEQ_CNVR_ID
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00080401 | CNVI_AUX_MISC_CHIP
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00000201 | CNVR_AUX_MISC_CHIP
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x0000485B | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x0BADCAFE | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00010009 | FSEQ_PREV_CNVIO_INIT_VERSION
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_WIFI_FSEQ_VERSION
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x00320000 | FSEQ_BT_FSEQ_VERSION
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: 0x000000FA | FSEQ_CLASS_TP_VERSION
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: UMAC CURRENT PC: 0x8047e450
+Apr 15 03:40:13 archlinux kernel: iwlwifi 0000:00:14.3: LMAC1 CURRENT PC: 0xd0
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: WRT: Collecting data: ini trigger 4 fired (delay=0ms).
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: Device is not enabled - cannot dump error
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: scheduling reset (mode=4 instead of product reset as ME may be present)
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: CSR values:
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: (2nd byte of CSR_INT_COALESCING is CSR_INT_PERIODIC_REG)
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_HW_IF_CONFIG_REG: 0X18480000
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:          CSR_INT_COALESCING: 0X00000000
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:                     CSR_INT: 0X00000000
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:                CSR_INT_MASK: 0X00000000
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_FH_INT_STATUS: 0X00000000
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:                 CSR_GPIO_IN: 0X00000000
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:                   CSR_RESET: 0X00000011
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:                CSR_GP_CNTRL: 0X0c040000
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:                  CSR_HW_REV: 0X00000430
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:              CSR_EEPROM_REG: 0Xd55555d5
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:               CSR_EEPROM_GP: 0Xd55555d5
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:              CSR_OTP_GP_REG: 0Xd55555d5
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:                 CSR_GIO_REG: 0X041f0042
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:            CSR_GP_UCODE_REG: 0X00000000
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_GP_DRIVER_REG: 0X00000000
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_UCODE_DRV_GP1: 0X00000000
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_UCODE_DRV_GP2: 0X00000000
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:                 CSR_LED_REG: 0X00000020
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_DRAM_INT_TBL_REG: 0X00000000
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_GIO_CHICKEN_BITS: 0Xd55555d5
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:             CSR_ANA_PLL_CFG: 0Xd55555d5
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:      CSR_MONITOR_STATUS_REG: 0X3f1d0030
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:           CSR_HW_REV_WA_REG: 0X0001105f
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3:        CSR_DBG_HPET_MEM_REG: 0Xffff0500
+Apr 15 03:40:14 archlinux kernel: pci 0000:00:14.3: [8086:7af0] type 00 class 0x028000 PCIe Root Complex Integrated Endpoint
+Apr 15 03:40:14 archlinux kernel: pci 0000:00:14.3: BAR 0 [mem 0x00000000-0x00003fff 64bit]
+Apr 15 03:40:14 archlinux kernel: pci 0000:00:14.3: PME# supported from D0 D3hot D3cold
+Apr 15 03:40:14 archlinux kernel: pci 0000:00:14.3: Adding to iommu group 5
+Apr 15 03:40:14 archlinux kernel: pci 0000:00:14.3: BAR 0 [mem 0x420421c000-0x420421ffff 64bit]: assigned
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: enabling device (0000 -> 0002)
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: Detected crf-id 0x201, cnv-id 0x80401 wfpm id 0x80000030
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: PCI dev 7af0/02a4, rev=0x430, rfid=0x108110
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: Detected Intel(R) Wireless-AC 9462
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-89.ucode failed with error -2
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-88.ucode failed with error -2
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-87.ucode failed with error -2
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-86.ucode failed with error -2
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-85.ucode failed with error -2
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-84.ucode failed with error -2
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-83.ucode failed with error -2
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-82.ucode failed with error -2
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-81.ucode failed with error -2
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-80.ucode failed with error -2
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-79.ucode failed with error -2
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-jf-b0-78.ucode failed with error -2
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: TLV_FW_FSEQ_VERSION: FSEQ Version: 0.0.2.36
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: loaded firmware version 77.f92b5fed.0 so-a0-jf-b0-77.ucode op_mode iwlmvm
+Apr 15 03:40:14 archlinux NetworkManager[890]: <info>  [1744675814.0449] device (wlan0): driver supports Access Point (AP) mode
+Apr 15 03:40:14 archlinux NetworkManager[890]: <info>  [1744675814.0452] manager: (wlan0): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/97)
+Apr 15 03:40:14 archlinux NetworkManager[890]: <info>  [1744675814.0516] audit: op="statistics" interface="wlan0" ifindex=97 args="500" pid=2279 uid=1000 result="success"
+Apr 15 03:40:14 archlinux NetworkManager[890]: <info>  [1744675814.0544] audit: op="statistics" interface="wlan0" ifindex=97 args="500" pid=2279 uid=1000 result="success"
+Apr 15 03:40:14 archlinux NetworkManager[890]: <info>  [1744675814.2516] rfkill90: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:14.3/ieee80211/phy90/rfkill90) (driver iwlwifi)
+Apr 15 03:40:14 archlinux NetworkManager[890]: <info>  [1744675814.2518] radio killswitch /sys/devices/pci0000:00/0000:00:14.3/ieee80211/phy90/rfkill90 disappeared
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: WFPM_UMAC_PD_NOTIFICATION: 0x1f
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: WFPM_LMAC2_PD_NOTIFICATION: 0x1f
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: WFPM_AUTH_KEY_0: 0x90
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: CNVI_SCU_SEQ_DATA_DW9: 0x0
+Apr 15 03:40:14 archlinux kernel: iwlwifi 0000:00:14.3: base HW address: c8:cb:9e:ed:04:fe
